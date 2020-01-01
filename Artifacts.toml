@@ -1,0 +1,44 @@
+[[librealsense]]
+arch = "armv7l"
+git-tree-sha1 = "beaceaf94fed8759abcfee859b2b853b571fd7e9"
+libc = "glibc"
+os = "linux"
+
+    [[librealsense.download]]
+    sha256 = "4fd1edb87537394512f6770fe02f9281b41c7e969877b0f458c490d7d306f309"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.31.0+0/librealsense.v2.31.0.arm-linux-gnueabihf.tar.gz"
+[[librealsense]]
+arch = "x86_64"
+git-tree-sha1 = "dc1b9f147c8ad836ce01aa5d8703a349217bbea7"
+libc = "glibc"
+os = "linux"
+
+    [[librealsense.download]]
+    sha256 = "9e7f8008a84ba8125c1cff23c0b9938240aff0bca8b96d76beaea63d8bcba07e"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.31.0+0/librealsense.v2.31.0.x86_64-linux-gnu.tar.gz"
+[[librealsense]]
+arch = "aarch64"
+git-tree-sha1 = "3e67d668d4537fecc3a08b4cd463065e1cd64509"
+libc = "glibc"
+os = "linux"
+
+    [[librealsense.download]]
+    sha256 = "1ad8908cdbbac70272f2181c69131ac7f2b30cf5db63b619756206ccdefb37c0"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.31.0+0/librealsense.v2.31.0.aarch64-linux-gnu.tar.gz"
+[[librealsense]]
+arch = "x86_64"
+git-tree-sha1 = "b7415a15adbbf3513bd16f29b76fd98f55f97234"
+os = "macos"
+
+    [[librealsense.download]]
+    sha256 = "9cc057328d17d0b6dc31755994594d4db396be207d68910a63de9913d35f60eb"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.31.0+0/librealsense.v2.31.0.x86_64-apple-darwin14.tar.gz"
+[[librealsense]]
+arch = "i686"
+git-tree-sha1 = "998d06f8edb46b74a4d398606d8b931120baf175"
+libc = "glibc"
+os = "linux"
+
+    [[librealsense.download]]
+    sha256 = "57d45cf09b4584708cafef0338b85b8fb91c38c34c26438bc4f9c27c6e2b4218"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.31.0+0/librealsense.v2.31.0.i686-linux-gnu.tar.gz"

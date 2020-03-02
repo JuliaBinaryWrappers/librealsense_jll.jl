@@ -18,7 +18,7 @@ librealsense2_path = ""
 librealsense2_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const librealsense2 = "librealsense2.so.2.32"
+const librealsense2 = "librealsense2.so.2.33"
 
 
 """

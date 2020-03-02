@@ -8,7 +8,7 @@ LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 
 # Relative path to `librealsense2`
-const librealsense2_splitpath = ["lib", "librealsense2.2.32.1.dylib"]
+const librealsense2_splitpath = ["lib", "librealsense2.2.33.1.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 librealsense2_path = ""
@@ -18,7 +18,7 @@ librealsense2_path = ""
 librealsense2_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const librealsense2 = "@rpath/librealsense2.2.32.dylib"
+const librealsense2 = "@rpath/librealsense2.2.33.dylib"
 
 
 """

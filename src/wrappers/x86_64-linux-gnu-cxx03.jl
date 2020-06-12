@@ -6,6 +6,7 @@ using libusb_jll
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "LD_LIBRARY_PATH"
+LIBPATH_default = ""
 
 # Relative path to `librealsense2`
 const librealsense2_splitpath = ["lib", "librealsense2.so"]
@@ -18,7 +19,7 @@ librealsense2_path = ""
 librealsense2_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const librealsense2 = "librealsense2.so.2.33"
+const librealsense2 = "librealsense2.so.2.34"
 
 
 """

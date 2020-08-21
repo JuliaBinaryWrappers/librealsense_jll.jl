@@ -1,98 +1,98 @@
 [[librealsense]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "b51fc166df2a001a4f7cb004d96ee21fc7379b05"
+git-tree-sha1 = "491b92c2129abdc9115a666dc6a8fc1b96f273a6"
 libc = "glibc"
 os = "linux"
 
     [[librealsense.download]]
-    sha256 = "e08c148c0cb25afb25ee637cb212f36a29351d617a03546f0585ca6908fbdd05"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "3ce215060090105a3a553870a49383902e266ffa32a8cfdd7a401fa7662859f8"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[librealsense]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "252b97a383f973e1668a34be9e7ae0d81bf91248"
+git-tree-sha1 = "1c5ce93de17fab4140c840d8fe8b42911bc4c4ac"
 libc = "glibc"
 os = "linux"
 
     [[librealsense.download]]
-    sha256 = "1c050b865fcd33a32749906d040243adad2cbf12472fc2e9a34eab7e58cd37b1"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "45cc526d27a80016b62405382642eaaaa325c2f507ee19d04902dc1e791aaea6"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[librealsense]]
 arch = "armv7l"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f2a8ac0a3ce8a1bbe575c6a9fff548ae951d6dba"
+git-tree-sha1 = "58f867ea1c51326556f9743017c758b0a86f9977"
 libc = "glibc"
 os = "linux"
 
     [[librealsense.download]]
-    sha256 = "84415e1526ad9d1df12b30afa33adc0810a38c82be76d1f5059d264dcdcaf922"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "37159718e640a005357a726e24b1bb7a391d02472ab0103aba87c6318d7f553e"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[librealsense]]
 arch = "armv7l"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f4baae4418518bc9bba2a5db8304a9b6d280cb07"
+git-tree-sha1 = "ec4da47a33e3a202d493d5a2e23bbe733a91e718"
 libc = "glibc"
 os = "linux"
 
     [[librealsense.download]]
-    sha256 = "10b4445759c1d5f239b04f3b89427ee95ccc636ceb560e9630123e5a10d018b9"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "1573ff199d7a328ad7b8bacbdccf7c756c4dd5eb5bebf72b8995d46e10233448"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[librealsense]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "53229f5dbc6c4a5d7870546be20d89342f0f5312"
+git-tree-sha1 = "ed23b7164088c3da16bfb63f77432fb14c195f05"
 libc = "glibc"
 os = "linux"
 
     [[librealsense.download]]
-    sha256 = "d5a519c939aa76db2f3449664ed4e5b641cc4427621e7fe4c260efdd0171a726"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "0a396fc9585be8085f7d35b06d9f7c8e9c792ed57c2852655ddefe911e96c902"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.i686-linux-gnu-cxx03.tar.gz"
 [[librealsense]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "498e21ee653d6a169d0ad5d44df7da740bb87979"
+git-tree-sha1 = "d02225f761d9e3e48771d4f2dfbae54231675f36"
 libc = "glibc"
 os = "linux"
 
     [[librealsense.download]]
-    sha256 = "2216d691ac3dab18ff9d71393823014be54d3a8dcf231b5af07e4ba38c18b6ef"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "da3a8e39faa3f5fd5c364c508a5c57567c28c6970d3d7b4b5c9ebe9d3f134c2a"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.i686-linux-gnu-cxx11.tar.gz"
 [[librealsense]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "346eca409a1e50dbb7389a31d1ad3ccae750270f"
+git-tree-sha1 = "c5837e3a753794c206bbbbc30814f8fa33acc632"
 os = "macos"
 
     [[librealsense.download]]
-    sha256 = "49185508df0f09df09382f41d5c1632fd5fbe4d455a065d936b5f091b66a6b92"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.x86_64-apple-darwin14-cxx03.tar.gz"
+    sha256 = "ffc3b1fa68ff8c62d53e58eb67d9c374b36bb4ec57ee5f90f8fcfab6146fc570"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.x86_64-apple-darwin14-cxx03.tar.gz"
 [[librealsense]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "40630f92ca8ace214365f65d699b081e6417718c"
+git-tree-sha1 = "9196f1bbe5ae73e9c936fc3427066c3723a7d9a7"
 os = "macos"
 
     [[librealsense.download]]
-    sha256 = "5846ed857bdc0ae97ec641721f05a76b356f0d93f34d89dabd61f5182a1b6c5e"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "ba3c8863ab2f3e43e638178b306c4834cac6eedaccdad90450feede2bf314220"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.x86_64-apple-darwin14-cxx11.tar.gz"
 [[librealsense]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "3327aac11bddf4393ac209ee19eb89bf44dc3edf"
+git-tree-sha1 = "bb0b90842c2462080fe077039790d2fd33a563eb"
 libc = "glibc"
 os = "linux"
 
     [[librealsense.download]]
-    sha256 = "c5a11d49872406f29244fa341316cc17099b91256010b98a78de8478f6820ed0"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "2ee6ed23ee0ae7558aa8180d4be55887e26b7cc52bc6717bd17cd1ac7ba7be5c"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[librealsense]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e4b2d31fc3dfb2fbf9e8eafe192b028331c2bae4"
+git-tree-sha1 = "e87c064f94a8bcb89fa18b8f4a7e4cd8464e94d6"
 libc = "glibc"
 os = "linux"
 
     [[librealsense.download]]
-    sha256 = "991fc2b7b9dab039cecae22dc680f22a697e473922fe3191ba4add2289a2bbf6"
-    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.35.0+0/librealsense.v2.35.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "5ff443c0e921d10f3e414684c79e4f56b00deccc990a9387cb20a346bb8fa1df"
+    url = "https://github.com/JuliaBinaryWrappers/librealsense_jll.jl/releases/download/librealsense-v2.36.0+0/librealsense.v2.36.0.x86_64-linux-gnu-cxx11.tar.gz"

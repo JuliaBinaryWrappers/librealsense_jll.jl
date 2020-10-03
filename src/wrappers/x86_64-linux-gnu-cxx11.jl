@@ -2,52 +2,15 @@
 export librealsense2
 
 using libusb_jll
-## Global variables
-PATH = ""
-LIBPATH = ""
-LIBPATH_env = "LD_LIBRARY_PATH"
-LIBPATH_default = ""
-
-# Relative path to `librealsense2`
-const librealsense2_splitpath = ["lib", "librealsense2.so"]
-
-# This will be filled out by __init__() for all products, as it must be done at runtime
-librealsense2_path = ""
-
-# librealsense2-specific global declaration
-# This will be filled out by __init__()
-librealsense2_handle = C_NULL
-
-# This must be `const` so that we can use it with `ccall()`
-const librealsense2 = "librealsense2.so.2.36"
-
-
-"""
-Open all libraries
-"""
+JLLWrappers.@generate_wrapper_header("librealsense")
+JLLWrappers.@declare_library_product(librealsense2, "librealsense2.so.2.38")
 function __init__()
-    global artifact_dir = abspath(artifact"librealsense")
+    JLLWrappers.@generate_init_header(libusb_jll)
+    JLLWrappers.@init_library_product(
+        librealsense2,
+        "lib/librealsense2.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
 
-    # Initialize PATH and LIBPATH environment variable listings
-    global PATH_list, LIBPATH_list
-    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
-    # then append them to our own.
-    foreach(p -> append!(PATH_list, p), (libusb_jll.PATH_list,))
-    foreach(p -> append!(LIBPATH_list, p), (libusb_jll.LIBPATH_list,))
-
-    global librealsense2_path = normpath(joinpath(artifact_dir, librealsense2_splitpath...))
-
-    # Manually `dlopen()` this right now so that future invocations
-    # of `ccall` with its `SONAME` will find this path immediately.
-    global librealsense2_handle = dlopen(librealsense2_path)
-    push!(LIBPATH_list, dirname(librealsense2_path))
-
-    # Filter out duplicate and empty entries in our PATH and LIBPATH entries
-    filter!(!isempty, unique!(PATH_list))
-    filter!(!isempty, unique!(LIBPATH_list))
-    global PATH = join(PATH_list, ':')
-    global LIBPATH = join(vcat(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ':')
-
-    
+    JLLWrappers.@generate_init_footer()
 end  # __init__()
-

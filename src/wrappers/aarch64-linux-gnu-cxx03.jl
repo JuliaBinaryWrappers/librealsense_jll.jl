@@ -3,7 +3,7 @@ export librealsense2
 
 using libusb_jll
 JLLWrappers.@generate_wrapper_header("librealsense")
-JLLWrappers.@declare_library_product(librealsense2, "librealsense2.so.2.38")
+JLLWrappers.@declare_library_product(librealsense2, "librealsense2.so.2.41")
 function __init__()
     JLLWrappers.@generate_init_header(libusb_jll)
     JLLWrappers.@init_library_product(

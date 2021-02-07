@@ -3,12 +3,12 @@ export librealsense2
 
 using libusb_jll
 JLLWrappers.@generate_wrapper_header("librealsense")
-JLLWrappers.@declare_library_product(librealsense2, "@rpath/librealsense2.2.38.dylib")
+JLLWrappers.@declare_library_product(librealsense2, "@rpath/librealsense2.2.41.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(libusb_jll)
     JLLWrappers.@init_library_product(
         librealsense2,
-        "lib/librealsense2.2.38.1.dylib",
+        "lib/librealsense2.2.41.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
